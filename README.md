@@ -18,31 +18,31 @@ Böylece, bu verileri kullanarak uygulamalar veya web siteleri oluşturabilir, b
 
 #### Öğeyi getir
 
-```http
+```
   GET /cars/{car_name}
 ```
 
 #### Marka-model ile filtreleme
 
-```http
+```
   GET /cars/name/{car_name}
 ```
 
 #### Öğe ekle
 
-```http
+```
   POST /cars
 ```
 
 #### Öğe verisi değiştir
 
-```http
+```
   PUT /cars
 ```
 
 #### Öğe sil
 
-```http
+```
   DELETE /cars
 ```
 
