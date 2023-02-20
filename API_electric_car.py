@@ -63,6 +63,7 @@ def cars_by_name(car_name: str):
     else:
         raise HTTPException(status_code=404, detail=f'{car_name} not found!')
 
+
 @app.post('/cars')
 def new_car(item: car_model):
 
@@ -78,7 +79,8 @@ def new_car(item: car_model):
     "Drive": item.Drive,
     "NumberofSeats": item.NumberofSeats,
     "PriceinGermany": item.PriceinGermany,
-    "PriceinUK": item.PriceinUK })
+    "PriceinUK": item.PriceinUK }
+    )
     json.dump(cars_database, open('electric_car.json', 'w'))
 
     return {'successfully posted': cars_database[-1]}
@@ -95,8 +97,6 @@ def car_put(item: car_model, car_id: int):
     else:
         raise HTTPException(status_code=404, detail=f"{car_id}. car id doesn't exist!")
     
-    
-
 
 @app.delete('/cars/{car_id}')
 def car_delete(car_id: int):
@@ -109,4 +109,4 @@ def car_delete(car_id: int):
         return {'deleted successfully': f'{car_name} deleted!'}
     else:
         raise HTTPException(status_code=404, detail=f"{car_id}. car id doesn't exist!")
-
+    
