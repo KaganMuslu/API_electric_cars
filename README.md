@@ -19,7 +19,7 @@ Böylece, bu verileri kullanarak uygulamalar veya web siteleri oluşturabilir, b
 #### Öğeyi getir
 
 ```
-  GET /cars/{car_name}
+  GET /cars/{car_id}
 ```
 
 #### Marka-model ile filtreleme
@@ -37,12 +37,12 @@ Böylece, bu verileri kullanarak uygulamalar veya web siteleri oluşturabilir, b
 #### Öğe verisi değiştir
 
 ```
-  PUT /cars
+  PUT /cars/{car_id}
 ```
 
 #### Öğe sil
 
 ```
-  DELETE /cars
+  DELETE /cars/{car_id}
 ```
 
