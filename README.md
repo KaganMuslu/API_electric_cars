@@ -12,7 +12,7 @@ Böylece, bu verileri kullanarak uygulamalar veya web siteleri oluşturabilir, b
 
 #### Tüm öğeleri getir
 
-```http
+```
   GET /cars
 ```
 
