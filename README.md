@@ -16,23 +16,35 @@ Böylece, bu verileri kullanarak uygulamalar veya web siteleri oluşturabilir, b
   GET /cars
 ```
 
+![Ekran görüntüsü 2023-10-17 231353](https://github.com/KaganMuslu/API_electric_cars/assets/71410113/c63e9469-8854-4551-a0e5-883ed8e1f2ae)
+
+
 #### Öğeyi getir
 
 ```
   GET /cars/{car_id}
 ```
 
-#### Marka-model ile filtreleme
+![Ekran görüntüsü 2023-10-17 231550](https://github.com/KaganMuslu/API_electric_cars/assets/71410113/32f5a29e-1534-4ffe-9f20-e64e241632f5)
+
+
+#### Marka-Model ile filtreleme
 
 ```
   GET /cars/name/{car_name}
 ```
+
+![Ekran görüntüsü 2023-10-17 231142](https://github.com/KaganMuslu/API_electric_cars/assets/71410113/d9635424-1e0c-4dea-aa97-46bd9194f29a)
+
 
 #### Öğe ekle
 
 ```
   POST /cars
 ```
+
+![Ekran görüntüsü 2023-10-17 232355](https://github.com/KaganMuslu/API_electric_cars/assets/71410113/004dab66-cb7f-4e13-8366-e7959df5e36a)
+
 
 #### Öğe verisi değiştir
 
@@ -45,4 +57,7 @@ Böylece, bu verileri kullanarak uygulamalar veya web siteleri oluşturabilir, b
 ```
   DELETE /cars/{car_id}
 ```
+
+![Ekran görüntüsü 2023-10-17 232546](https://github.com/KaganMuslu/API_electric_cars/assets/71410113/0bed4992-916f-468a-9862-322cc8a55884)
+
 
